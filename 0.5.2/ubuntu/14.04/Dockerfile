@@ -11,4 +11,4 @@ rm consul.zip consul_ui.zip
 
 VOLUME /tmp/consul
 
-ENTRYPOINT ["consul", "agent", "-data-dir=/tmp/consul", "-ui-dir=/ui"]
+ENTRYPOINT ["consul", "agent", "-data-dir=/tmp/consul", "-ui-dir=/ui/dist"]
