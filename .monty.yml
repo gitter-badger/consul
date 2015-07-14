@@ -1,0 +1,11 @@
+- build: 0.5.2/centos/7
+  image:
+    - mesoscloud/consul:0.5.2-centos-7
+    - mesoscloud/consul:0.5.2-centos
+    - mesoscloud/consul:0.5.2
+    - mesoscloud/consul:latest
+    
+- build: 0.5.2/ubuntu/14.04
+  image:
+    - mesoscloud/consul:0.5.2-ubuntu-14.04
+    - mesoscloud/consul:0.5.2-ubuntu
